@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="false">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:minWidth="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/appbar" />
+    </android.widget.Toolbar>
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/networkImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_spnb"
+        android:text="Mengenai SPNB"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/corporate"
+        android:text="STRUKTUR KORPORAT"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtviewcorporate"
+        android:text="Sebuah syarikat milik Kewangan Diperbadankan(MOF Inc.),Syarikat Perumahan Negara Berhad(SPNB)ditubuhkan pada 21 Ogos 1997 demi memastikan penyediaan rumah mampu milik berkualiti dan mampan kepada setiap keluarga di Malaysia sejajar dengan Objektif Perumahan Negara. SPNB dipertanggungjawabkan untuk membina rumah yang mampu dimiliki dan selesa untuk didiami melalui bebrapa program seperti Rumah Mampu Milik(RMM) dan Program Rumah Mesra Rakyat(RMR).Di bawah SPNB,terdapat beberapa subsidiari iaitu SPNB Aspirasi,SPNB Idaman,SPNB Mesra,SPNB Edar dan SPNB Dana.Setiap subsidiari ini mempunyai peranan masing-masing,dalam mencapai matlamat penubuhan SPNB secara keseluruhan."
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@color/background"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" VISI SPNB"
+            android:id="@+id/visi_spnb"
+            android:textSize="22dp"
+            android:drawableRight="@drawable/down_arrow"
+            android:textAllCaps="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISI SPNB"
+            android:id="@+id/visi_spnb2"
+            android:textSize="22dp"
+            android:drawableRight="@drawable/sort_up"
+            android:textAllCaps="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white"
+            android:layout_weight="0.03"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/textboxbackground"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menjadi pilihan pertama rakyat dalam membangunkan rumah mampu milik yang berkualiti"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@color/background"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" MISI SPNB"
+            android:id="@+id/misi_spnb"
+            android:textSize="22dp"
+            android:drawableRight="@drawable/down_arrow"
+            android:textAllCaps="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MISI SPNB"
+            android:id="@+id/misi_spnb2"
+            android:textSize="22dp"
+            android:drawableRight="@drawable/sort_up"
+            android:textAllCaps="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white"
+            android:layout_weight="0.03"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/textboxbackground"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kami berhasrat melaksanakan pembangunan perumahan mampu milik yang mampan serta menepati kepuasan pelanggan melalui budaya kerja cemerlang serta menepati kepuasan pelanggan melalui budaya kerja cemerlang serta menjadi pemaju yang prihatin dan bertanggungjawab terhadap tanggungjawab sosial"
+            android:textSize="20dp"
+            android:background="@drawable/textboxbackground"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

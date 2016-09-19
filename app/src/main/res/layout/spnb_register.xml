@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="false">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:showDividers="middle"
+       android:divider="@drawable/empty_tall_divider"
+       android:weightSum="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Borang Pendaftaran"
+        android:textSize="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/textView" />
+
+       <EditText
+           android:layout_width="355dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/EdtTxtUsername"
+           android:hint=" Nama*"
+           android:layout_marginRight="5dp"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/textboxbackground"
+           />
+       <EditText
+           android:layout_width="355dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/EdtTxtICno"
+           android:hint=" IC NO*"
+           android:layout_marginRight="5dp"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/textboxbackground"
+           />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:showDividers="middle"
+           android:divider="@drawable/empty_tall_divider">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/gender"
+               android:text="Janita"
+               android:textColor="@color/textcolor"
+               android:textSize="22dp"
+               android:layout_marginLeft="6dp"/>
+
+           <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:showDividers="middle"
+               android:divider="@drawable/empty_tall_divider">
+               <RadioButton android:id="@+id/radio_pirates"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/pria"
+                   android:textColor="@color/textcolor"
+                   android:textSize="20dp"
+                   android:onClick="onRadioButtonClicked"
+                   />
+               <RadioButton android:id="@+id/radio_ninjas"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/Perempuam"
+                   android:textSize="20dp"
+                   android:textColor="@color/textcolor"
+                   android:onClick="onRadioButtonClicked"/>
+           </RadioGroup>
+       </LinearLayout>
+       <EditText
+           android:layout_width="355dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/EdtTxtEmail"
+           android:hint=" Email*"
+           android:layout_marginRight="5dp"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/textboxbackground"
+           />
+       <EditText
+           android:layout_width="355dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/EdtTxtTelefon"
+           android:hint=" Telefon*"
+           android:layout_marginRight="5dp"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/textboxbackground"
+           />
+       <EditText
+           android:layout_width="355dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/EdtTxtIPsw"
+           android:hint=" Kata laluan*"
+           android:layout_marginRight="5dp"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/textboxbackground"
+           />
+       <EditText
+           android:layout_width="355dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/EdtTxtConfirmPsw"
+           android:hint=" Semak kata laluan"
+           android:layout_marginRight="5dp"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/textboxbackground"
+           />
+       <Spinner
+           android:id="@+id/spinner1"
+           android:layout_width="match_parent"
+           android:layout_height="49dp"
+           android:background="@drawable/dropdown"
+           android:spinnerMode="dropdown"
+           android:layout_marginRight="15dp"
+           android:layout_marginLeft="10dp"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:showDividers="middle"
+           android:divider="@drawable/empty_tall_divider">
+           <TextView
+               android:layout_width="150dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/anda"
+               android:text="@string/anda"
+               android:textColor="@color/textcolor"
+               android:textSize="18dp"
+               android:layout_marginLeft="11dp"/>
+
+           <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:showDividers="middle"
+               android:divider="@drawable/empty_tall_divider">
+               <RadioButton android:id="@+id/radio_Tidak"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/benar"
+                   android:textColor="@color/textcolor"
+                   android:textSize="20dp"
+                   android:onClick="onRadioButtonClicked"
+                   />
+               <RadioButton android:id="@+id/radio_Benar"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/Tidak"
+                   android:textSize="20dp"
+                   android:textColor="@color/textcolor"
+                   android:onClick="onRadioButtonClicked"/>
+           </RadioGroup>
+       </LinearLayout>
+       <EditText
+           android:layout_width="355dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/EdtTxtJumlah"
+           android:hint=" Jumlah pendapatan serumah*"
+           android:layout_marginRight="5dp"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/textboxbackground"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:textAllCaps="false"
+           android:text="Dafter"
+           android:layout_marginRight="18dp"
+           android:layout_marginLeft="10dp"
+           android:background="@color/background"/>
+
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/txtLokasikami"
+           android:text="Lokasi Kami"
+           android:textSize="22dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="10dp"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:background="@color/layoutColor"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/txtview1"
+           android:text="Sarikat Perumahan Negara Behard(444205-M) Tingat 8,Wisma Perkeso,Jala Tun Razak,50400 Kuala Lumpur"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="20dp"
+           />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/txtview2"
+               android:text="Email us at aduan@spnb.com.my Or Call us on 1300-80-3838"
+               android:autoLink="email"
+               android:textColorLink="@color/textColorLink"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginTop="10dp"
+               />
+
+       </LinearLayout>
+    </LinearLayout>
+</ScrollView>

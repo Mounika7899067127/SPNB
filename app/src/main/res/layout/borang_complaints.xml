@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:divider="@drawable/empty_tall_divider"
+        android:weightSum="1">
+       <android.widget.Toolbar
+           android:id="@+id/toolbar"
+           android:minHeight="?attr/actionBarSize"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <include layout="@layout/appbar" />
+       </android.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:divider="@drawable/empty_tall_divider">
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/anda"
+        android:text="@string/home_owner"
+        android:textColor="@color/textcolor"
+        android:textSize="18dp"
+        android:layout_marginLeft="11dp"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:divider="@drawable/empty_tall_divider">
+        <RadioButton android:id="@+id/radio_Tidak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/benar"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp"
+            android:onClick="onRadioButtonClicked"
+            />
+        <RadioButton android:id="@+id/radio_Benar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Tidak"
+            android:textSize="20dp"
+            android:textColor="@color/textcolor"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    </LinearLayout>
+
+
+        <EditText
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/EdtTxtUsername"
+            android:hint=" Nama*"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/textboxbackground"
+            />
+
+        <EditText
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/EdtTxtICno"
+            android:hint=" IC NO*"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/textboxbackground"
+            />
+        <EditText
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/EdtTxtEmail"
+            android:hint=" Email*"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/textboxbackground"
+            />
+        <EditText
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/EdtTxtTelefon"
+            android:hint=" Telefon*"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/textboxbackground"
+            />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@drawable/dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            android:background="@drawable/empty_tall_divider">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/insert_image"
+                android:text="Masukkan gambar"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/camera"
+                android:src="@drawable/camera"/>
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scrollbars="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            >
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+
+        </HorizontalScrollView>
+
+       </LinearLayout>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EdtTxtReportMessage"
+            android:hint=" Report Message*"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="top"
+            android:background="@drawable/textboxbackground1"
+            android:layout_weight="0.44"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:text="Hantar"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/background"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

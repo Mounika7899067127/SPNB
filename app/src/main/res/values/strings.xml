@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">SPNB</string>
+    <string name="pria">Pria</string>
+    <string name="Perempuam">Perempuam</string>
+
+    <string name="anda">Apakah ini rumah pertama Anda?</string>
+    <string name="home_owner">Adakah anda pemilik rumah SPNB?</string>
+    <string name="benar">Benar</string>
+    <string name="Tidak">Tidak</string>
+
+
+    <!---String for Title_test in Berita(news)-->
+    <string name="Title_test">
+        Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum
+        has been the industrys standard dummy text ever since the 1500s,when an unknown printer took a gallery of type and
+        scrambled it to make a type specimen book.It has survived not only five centuries,but also the leap into electronic
+        typesettings,remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+        Ipsum passages,and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+    </string>
+        <string name="Title_new_test">
+        Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum
+        has been the industrys standard dummy text ever since the 1500s,when an unknown printer took a gallery of type and
+        scrambled it to make a type specimen book.It has survived not only five centuries,but also the leap into electronic
+        typesettings,remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+        Ipsum passages,and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </string>
+
+    <string name="test">hcbxjcncxcxc test news http://www.nstp.com.my</string>
+
+    <!---String for Title_test in Berita(news)-->
+
+    <string name="johar"> 11, Test Street, 15th main cross,Pin-72622827,Johor 923749892 email@gmail.com</string>
+
+    <string name="kedah"> 34/67, Second Street, Pin-363,kedah 923749892,874823984 email@gmail.com</string>
+
+    <string name="kuala_lumpur"> Third Street, West cross road,Pin-25326,Kuala Lumpur 923749892,874823984 email@gmail.com</string>
+
+    <!---Strings for FAQ-->
+    <string name="faq1">Apakah konsep binaan rumah mampu milik spnb?</string>
+
+    <string name="faq2">Bagaimanakah untuk memilik/membeli mana-mana rumah mampu milik spnb?</string>
+
+    <string name="faq3">Apakah syarat-syarat untuk mendaftar sebagai pembeli rumah mampu milik kos rendah?</string>
+
+    <string name="faq4">Apakah cara terbaik untuk memohon</string>
+
+    <string name="faq_ans1">Rumah-rumah yang di bina oleh SPNB adalah rumah kediaman tiga bilik tidur dan dilengkapi kemudahan dua
+        bilik air berkonsep mesra keluarga dan selesa dan dijual pada kadar harga serendah RM35,000 mengikut negeri</string>
+
+    <string name="faq_ans_p1">
+        Rumah-rumah yang di bina oleh SPNB adalah rumah kediaman tiga bilik tidur dan dilengkapi kemudahan dua
+        bilik air berkonsep mesra keluarga dan selesa dan dijual pada kadar harga serendah RM35,000 mengikut negeri
+    </string>
+    <string name="faq_ans_p2">
+        Untuk memiliki/membeli Rumah Mampu Milik -Kos Redah,pembeli haruslah berdaftar dengan Setiausaha Kerajaan
+        Negeri(Bahagian Perumahan Kos Rendah)atau datang terus ke Pejabat Setiausaha Kerajaan Negeri atau Pejabat Daerah yang berdekatan.
+    </string>
+
+
+    <string name="faq_ans_p3">
+        Syarat untuk mendaftar sebagai pembeli Rumah Mampu Milik - Kos Rendah yang dimajukan oleh SPNB adalah tertakluk kepada SUK
+        negeri masing-masing.Sila rujuk ke SUK negeri di mana projek itu dimajukan.
+    </string>
+
+        <string name="faq_ans_p4">
+         SPNB menggunapakai kelayakan yang disyaratkan tiga(3)syarat penting yang harus dipenuhi oleh para pembeli Rumah Kos Rendah iaitu:
+            Warganegara Malaysia.
+            Umur 21 hingga 50 tahun.
+            Tidak memiliki rumah atau tidak memiliki sebarang tanah dengam pendapatan kurang daripada RM2000
+        </string>
+
+    <string name="faq_ans_p5">Dapatkan borang terlebih dahulu</string>
+
+
+    <string-array name="Aspirasi">
+        <item>Aspirasi</item>
+        <item>Dana</item>
+        <item>Edar</item>
+        <item>Idaman</item>
+        <item>Mesra</item>
+    </string-array>
+</resources>
